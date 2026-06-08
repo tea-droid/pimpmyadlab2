@@ -1,0 +1,26 @@
+Domain controller: Empire-DC (and EMPIRE-DC)
+
+Workstation #1: Palpatine (and PALPATINE)
+Workstation #2: Vader (and VADER)
+
+AD Domain + NetBIOS name: DEATHSTAR.local
+
+AD User NAME - Logon
+  Shiv Palpatine - spalpatine
+  Darth Vader - dvader
+  Wilhuff Tarkin - wtarkin
+  SQL Service - sqlservice
+
+  - create_deathstar_gpo — pimpmyadlab.ps1 line 402 (and call site line 723)                                                                                                                                         
+  - set_palpatine_staticip — line 596 (call site line 856)
+  - set_vader_staticip — line 623 (call site line 885)                                                                                                                                                        
+  - workstation_palpatine — line 846 (call site line 929)                                                                                                                                                          
+  - workstation_vader — line 875 (call site line 932)
+                                                                                                                                                                                                                  
+  Comments / banners referencing Marvel
+                                                                                                                                                                                                                  
+  - pimpmyadlab.ps1 line 4 (header), lines 17–18 (IP map comments)                                                                                                                                                
+  - readme.md title/banner sections, "Lab build is 3 vms" list, menu descriptions
+
+
+basically change punisher to palpatine and spiderman to vader and marvel theme to star wars theme
