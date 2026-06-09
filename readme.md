@@ -1,5 +1,4 @@
 # PimpmyADLab.ps1
-  (note: name and repo may change it is still under debate)
 
 TCM-Academy Practical Ethical Hacker Course - Active Directory Lab build script
 - Course Link : https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course
@@ -12,25 +11,12 @@ Requirements :
     - Windows 10 or Windows 11 Enterprise or Pro Client (Standard Evaluation - Desktop Experience) required
     - **Windows 11 only:** Microsoft Defender **Tamper Protection** must be turned OFF before running this script — Settings → Privacy & security → Windows Security → Virus & threat protection → Manage settings → toggle Tamper Protection OFF. The script will refuse to run if it is still on. (Tamper Protection cannot be disabled programmatically; this is a one-time manual step.)
 
-# Note: 
- Disclaimer: Author assumes zero liability for any damages in any form. 
+# credits
+ - Deawalt-arch https://github.com/Dewalt-arch
+ - jmeliendrez https://github.com/jmeliendrez
+ - wodensec https://github.com/WodenSec
 
- This script is provided as a courtesy in addition to, and is by no means intended 
- to replace or remove any direct course provided instruction. All aspects of this 
- script have been carefully planned, to replicate the lab instructed setup per 
- TCM Academy/PEH course material and provide a scripted installation.  
- 
- The function NukeDefender.ps1 has also been provided as a separate script
- and menu functionality added to PimpmyADLab.ps1 for those that just need to 
- NukeDefender only and not rebuild the entire lab.  
-
-# Special Thanks to :
-  - ToddAtLarge (PNPT Certified) for the NukeDefender script 
-  - Yaseen (PNPT Certified) for Alpha/Beta Testing!
-
-# Code Contributors
-  - jmeliendrez  https://github.com/jmeliendrez
-  - wodensec     https://github.com/WodenSec
+pimpmyadlab original repo https://github.com/Dewalt-arch/pimpmyadlab
 
 # Installation and usage : 
  On each machine Domain Contoller, Workstation1 and Workstation2 : 
