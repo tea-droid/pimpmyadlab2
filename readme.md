@@ -15,6 +15,7 @@ Requirements :
  - Deawalt-arch https://github.com/Dewalt-arch
  - jmeliendrez https://github.com/jmeliendrez
  - wodensec https://github.com/WodenSec
+ - Me for the windows 11 update
 
 pimpmyadlab original repo https://github.com/Dewalt-arch/pimpmyadlab
 
